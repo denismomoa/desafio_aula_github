@@ -11,3 +11,8 @@ trabalho = float(input("Informe a nota do trabalho: "))
 
 media = (prova1 + prova2 + trabalho) / 3
 print(f"Sua média é: {media:,.2f}")
+
+if media >= 6:
+    print("Parabéns! Você foi aprovado.")
+else:
+    print("Infelizmente você não atingiu a média necessária para aprovação...")
